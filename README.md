@@ -26,4 +26,6 @@ unstable_scheduleCallback(3, () => {
 })
 
 unstable_scheduleCallback(3, () => {console.log(5)})
+
+// 执行结果  workLoop start -> 1 -> 4 -> workLoop start -> 5 -> 2 -> workLoop start -> 3
 ```
